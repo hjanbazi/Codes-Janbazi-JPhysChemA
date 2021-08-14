@@ -1,0 +1,2705 @@
+<?xml version="1.0"?>
+<ctml>
+<speciesData id="species_data">
+    
+    <species name="C-(C)2(H)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.0770498024221, 0.0138757394673, -1.16355214787e-05, 2.19210972563e-09, 1.13170980592e-12, 504.654834257, -10.4071696043</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.0769785903296, 0.0110235746933, -6.85390105044e-06, 1.6959345682e-09, -1.47542298132e-13, 870.786348069, -8.39661985613</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)2(Si)2" group = "yes">
+      <atomArray>C:3 Si:2 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.57897796174, 0.0316414520377, -5.93215218631e-05, 5.04685962684e-08, -1.62420238241e-11, 2563.55894847, -14.3681285621</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.68390666346, 0.0071966963355, -5.13591532355e-06, 1.34311602919e-09, -1.2027904739e-13, 2518.20443233, -27.2106607385</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+
+    <species name="C-(C)3(Si)" group = "yes">
+      <atomArray>C:4 Si:1 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.99250663148, 0.0294025384981, -4.56122327631e-05, 3.08303892697e-08, -7.67269162085e-12, 2014.41686157, -15.3815599051</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.430598989656, 0.0119497233582, -8.64204955497e-06, 2.28530190041e-09, -2.06879961511e-13, 2498.63189743, -19.5545359191</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="C-(C)(H)2(Si)" group = "yes">
+      <atomArray>C:2 H:2 Si:1 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.19724423801, 0.00513812323817, 1.05164266632e-05, -1.80023047003e-08, 7.76585816738e-12, -2197.93391792, -3.21639783659</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.728891027183, 0.00999719348889, -5.18001764093e-06, 1.16470210889e-09, -9.5421377596e-14, -2146.46352438, -1.41565895421</floatArray>
+        </NASA>
+      </thermo>
+    </species>    
+    
+    <species name="C-(C)(H)3" group = "yes">
+      <atomArray>C:2 H:3 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.09898989623, 0.00371603103985, 1.48009670782e-05, -2.03127377615e-08, 7.98926839078e-12, -5747.19635082, 7.42615281807</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.32475342795, 0.00459987170235, -5.1659850854e-07, -1.41728810841e-10, 2.6220832331e-14, -6759.16774422, -5.90684259775</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="C-(C)(H)(Si)2" group = "yes">
+      <atomArray>C:2 H:1 Si:2 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.358355728903, 0.0139186616731, -1.44577288596e-05, 7.42572888883e-09, -1.42351153729e-12, 2744.03124111, -8.36619771047</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.19388982439, 0.00636476625772, -3.46403656483e-06, 7.91837061984e-10, -6.49506855906e-14, 2407.64154142, -17.1169117177</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+        
+    <species name="C-(C)(Si)3" group = "yes">
+      <atomArray>C:2 Si:3 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.832391759568, 0.0254670029969, -4.38692217045e-05, 3.63323165163e-08, -1.16851489167e-11, 38.9431985296, -14.4651853007</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.75030069762, 0.00324152032716, -2.0307112501e-06, 4.93144094299e-10, -4.16967364285e-14, -746.075405792, -35.7795481089</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+
+    <species name="C-(H)2(Si)2" group = "yes">
+      <atomArray>C:1 H:2 Si:2 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.064530213438, 0.0127116100318, -1.23920854813e-06, -1.00586615081e-08, 5.84347727182e-12, -4414.72534541, 4.60040449878</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.64926629781, 0.00502565953011, -1.74404618715e-06, 2.78646459787e-10, -1.68390666346e-14, -5529.53111708, -15.0959138737</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="C-(H)3(Si)" group = "yes">
+      <atomArray>C:1 H:3 Si:1 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.36423256138, 0.00823892232252, -8.26617275241e-07, -2.60783113325e-09, 1.19237122485e-12, -6293.8823958, 4.85099519388</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.35097426028, 0.00469088284821, -4.04939459546e-07, -3.36781332692e-10, 6.09413840109e-14, -6988.64011142, -6.00988883824</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="C-(H)(Si)3" group = "yes">
+      <atomArray>C:1 H:1 Si:3 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.209063319682, 0.0106295829224, 3.863245521e-06, -1.73203030442e-08, 9.07454609962e-12, -3758.06470911, -2.97690281587</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.40942987732, 0.00195854382167, -3.04706920055e-07, -3.40790634271e-11, 8.82046347526e-15, -5160.13174334, -27.6209515083</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="C-(Si)4" group = "yes">
+      <atomArray>C:1 Si:4 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-3.3944433713, 0.046057065546, -9.17629345883e-05, 8.31857712651e-08, -2.82639529579e-11, -4982.05380804, -3.29680160014</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.63699783498, -0.00192446475824, 1.4794322829e-06, -4.08948761126e-10, 3.84892951648e-14, -6865.32726329, -50.4418995678</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+
+    <species name="Si-(C)2(H)2" group = "yes">
+      <atomArray>C:2 Si:1 H:2 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.5092073555, 0.017920496581, -1.3716706705e-05, 2.74483545804e-09, 9.81799245402e-13, -950.368119247, 4.45638571996</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.30526822228, 0.00665944992382, -3.14730174004e-06, 6.53516157485e-10, -4.97153395878e-14, -1928.32261462, -14.9617488345</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="Si-(C)2(H)(Si)" group = "yes">
+      <atomArray>C:2 Si:2 H:1 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.00242653295, 0.0238221279143, -3.35431399385e-05, 2.35986366097e-08, -6.57257596933e-12, -38.0381456954, -2.66973322088</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.59153235506, 0.00458864565793, -2.36348328121e-06, 5.29227808516e-10, -4.33004570604e-14, -946.977693462, -24.7025389976</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+
+    <species name="Si-(C)2(Si)2" group = "yes">
+      <atomArray>C:2 Si:3 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.172475299028, 0.0238561211234, -4.75427419881e-05, 4.31013087831e-08, -1.46355251043e-11, -402.522019429, -16.2643540235</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.91147462112, 0.00131104161655, -7.81813808035e-07, 1.80418571085e-10, -1.44334856868e-14, -994.904016883, -34.6589747274</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="Si-(C)3(H)" group = "yes">
+      <atomArray>C:3 Si:1 H:1 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.735163282665, 0.0191442745322, -2.26249611968e-05, 1.25183902145e-08, -2.44495065924e-12, -3606.71952325, -4.57654109081</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.86745248978, 0.00512789672039, -2.69224601074e-06, 6.0339988774e-10, -4.89134792719e-14, -4345.84463944, -22.039854845</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+
+    <species name="Si-(C)3(Si)" group = "yes">
+      <atomArray>C:3 Si:2 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.63654729042, 0.0273860610014, -4.38757854342e-05, 3.30177229681e-08, -9.55106154093e-12, -2735.80198181, -11.1879978486</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.45922540293, 0.00350613423142, -2.08684147222e-06, 5.05171999038e-10, -4.33004570604e-14, -3594.673752, -34.9423170639</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+
+    <species name="Si-(C)4" group = "yes">
+      <atomArray>C:4 Si:1 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.73936232459, 0.0249271674717, -3.6550752115e-05, 2.50222856889e-08, -6.53545130231e-12, -6519.1823461, -11.6454912606</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.74236228049, 0.00451246892791, -2.75439018523e-06, 6.83585919333e-10, -6.0139523695e-14, -7269.39906923, -32.5935585029</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+
+    <species name="Si-(C)(H)2(Si)" group = "yes">
+      <atomArray>C:1 Si:2 H:2 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.02133151453, 0.0259170129383, -3.30379184636e-05, 2.20410485207e-08, -5.93633854371e-12, 2206.21498943, 7.12338026008</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.12316574453, 0.00615828722637, -2.86865528025e-06, 5.9538128458e-10, -4.57060380082e-14, 1067.9498331, -18.0635560997</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+
+    <species name="Si-(C)(H)3" group = "yes">
+      <atomArray>C:1 Si:1 H:3 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.00668010973, 0.0128239123757, -4.99733565548e-06, -2.4885129283e-09, 1.94248246367e-12, 1451.30146283, 6.08890177892</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.6035602598, 0.0072748777163, -3.15732499399e-06, 6.09413840109e-10, -4.33004570604e-14, 638.276647316, -7.756877984</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+
+    <species name="Si-(C)(H)(Si)2" group = "yes">
+      <atomArray>C:1 Si:3 H:1 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.120408069387, 0.0224054542405, -3.71788176643e-05, 3.07645420568e-08, -9.88087400364e-12, 1982.58313358, -5.5441482002</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.12557132548, 0.00297891107369, -1.36917648946e-06, 2.74637158207e-10, -2.00465078983e-14, 1163.63898932, -25.6545174412</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="Si-(C)(Si)3" group = "yes">
+      <atomArray>C:1 Si:4 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.0438418983834, 0.0249928344849, -4.92733105617e-05, 4.44104536838e-08, -1.50258762769e-11, 770.304194577, -16.3503369551</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.69088284821, 0.000771790554085, -3.80883650068e-07, 7.01627776441e-11, -4.00930157966e-15, 17.0089044216, -37.651497908</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="Si-(H)2(Si)2" group = "yes">
+      <atomArray>H:2 Si:3 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.0938138706484, 0.024472525373, -3.85123378499e-05, 3.20965310956e-08, -1.0541687524e-11, 3876.84487494, 3.74405680557</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.51768101997, 0.00443228289632, -1.84828802823e-06, 3.42795285061e-10, -2.32539491621e-14, 2898.86851975, -18.4478335935</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="Si-(H)3(Si)" group = "yes">
+      <atomArray>H:3 Si:2 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.09387611681, 0.0146368659668, -1.04528237316e-05, 3.49593397167e-09, -3.30263196587e-13, 3968.16889047, 6.48453476203</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.04378157325, 0.00675567316174, -2.86264132788e-06, 5.45265014834e-10, -3.84892951648e-14, 3108.11149425, -8.89597578041</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="Si-(H)(Si)3" group = "yes">
+      <atomArray>H:1 Si:4 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.158451900275, 0.0247833448838, -4.4163107522e-05, 3.84063732527e-08, -1.2782038916e-11, 2609.77253922, -4.80142165167</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.54173682944, 0.00234143212252, -9.5822307754e-07, 1.72399967926e-10, -1.12260444231e-14, 1733.24278883, -26.8777500789</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    
+    <species name="Si-(Si)4" group = "yes">
+      <atomArray> Si:5 </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.902537975654, 0.0149457947845, -2.93210267532e-05, 2.628288754e-08, -8.85528616191e-12, 853.463996516, -20.4919083593</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.77721674284, 0.000290975062144, -1.40056932082e-07, 2.89311201989e-11, -2.15860797049e-15, 372.068744327, -33.747114058</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)2(H)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.32538305905, -0.000165035630602, 2.20340383347e-05, -2.92675300906e-08, 1.16283524104e-11, 7663.40186132, -20.7514313406</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.307914361318, 0.0129259882928, -7.7880683185e-06, 1.88637639323e-09, -1.61173923503e-13, 8261.31818352, -8.17848169192</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)2(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-5.41180355465, 0.0525446153959, -9.72358732887e-05, 7.97689788457e-08, -2.45300020752e-11, -850.852653819, 0.912072058894</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.24272311763, 0.00383289231016, -2.53387859835e-06, 6.53516157485e-10, -5.9337663379e-14, -1832.11655699, -37.256399715</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)2(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.109120749656, 0.0195553264051, -2.21176437794e-05, 1.15977449671e-08, -2.27487552239e-12, 9632.81018645, -21.246866508</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.48664902574, 0.0103460027263, -6.72159409831e-06, 1.68791596504e-09, -1.47542298132e-13, 9561.67629574, -27.9873117319</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)3(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.20825630665, 0.00885634877177, -2.04016168787e-06, -5.17231488694e-09, 2.96937739028e-12, 9099.76362985, -28.4944828906</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-1.74164060621, 0.015451848288, -1.02718306471e-05, 2.61406462994e-09, -2.30935770989e-13, 10189.2681907, -12.3923635036</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(Cd,si)(H)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.28910480267, 0.00844294285446, 6.19411946758e-06, -1.35363101323e-08, 5.89736937289e-12, 1976.05063412, 0.879875209455</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.04305989897, 0.00780611017561, -3.07312966081e-06, 5.47269665624e-10, -3.6083714217e-14, 1295.39058799, -9.17672345056</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)(H)2(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.012390299581, 0.00499481546797, 2.25795332496e-05, -3.81464532854e-08, 1.71269502555e-11, -4387.2363101, 1.57668777281</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.67668992062, 0.00758960789031, -3.27960869217e-06, 6.25451046428e-10, -4.49041776922e-14, -4987.82335804, -8.21611267397</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)(H)2(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.36978360177, 0.00245544650218, 1.43486075237e-05, -2.0584881127e-08, 8.41128405739e-12, 5192.3993289, -8.96935943306</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.861197979312, 0.0106687515035, -5.74733381445e-06, 1.32908347366e-09, -1.11458583915e-13, 5519.03694153, -1.88772267451</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)(H)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-3.71368955568, 0.0366655990907, -5.56380168224e-05, 4.00480066548e-08, -1.09871098559e-11, -56.7198367255, 6.61874549456</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.80081789752, 0.003548231898, -1.12260444231e-06, 1.56362761607e-10, -8.01860315933e-15, -1407.25509753, -28.8775302137</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)(H)(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.107882109903, 0.0188900611878, -2.03210067349e-05, 1.00978233168e-08, -1.70235189317e-12, 6685.7754966, -9.17006340885</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.98292037527, 0.00731096143052, -4.09951086521e-06, 9.5822307754e-10, -8.01860315933e-14, 6153.58870752, -22.9207803935</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)(O)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-7.15021005651, 0.0635230764783, -0.00011727087741, 9.49287904495e-08, -2.86422781389e-11, -3389.82064095, 7.17764417398</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.25956218427, 0.0040413759923, -2.53588324914e-06, 6.91604522492e-10, -6.81581268543e-14, -4459.26821288, -38.3474462635</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(C)(O)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-5.37576161569, 0.0563921825853, -0.000111385485375, 9.79584893427e-08, -3.21167282812e-11, 3185.60744921, 3.24218582749</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.33317296127, -0.000180418571085, 4.41023173763e-07, -1.32306952129e-10, 1.12260444231e-14, 1584.57880935, -45.40822313</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(C)(RSi)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.19443153315, 0.0318815735047, -5.37501133247e-05, 4.31871802297e-08, -1.34366938417e-11, 6876.45628162, -13.8366357657</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.4286745249, 0.00447838986449, -2.87466923262e-06, 7.1766498276e-10, -6.25451046428e-14, 5939.00974399, -39.9012468302</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="Cd-(H)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.466941891952, 0.00615278641079, 4.54172358893e-06, -1.01084562596e-08, 4.53998007147e-12, 2584.02039971, 9.30707261982</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-1.31825835939, 0.0121080907706, -6.67348247935e-06, 1.62176248897e-09, -1.45136717184e-13, 3134.4391645, 18.5523040354</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="Cd,si-(C)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.0697426023902, 0.00353588239043, -1.30211210614e-06, -4.74648265421e-10, 3.36158231876e-13, -1272.23651988, -0.379840750349</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.813086360356, 0.00197658567877, -7.39716141448e-07, 1.2228369818e-10, -7.2167428434e-15, -1503.95523954, -4.34971236675</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="Cd,si-(C)(H)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.10950695073, 0.00191032841601, 6.97332636406e-06, -1.02749637228e-08, 4.22695474655e-12, 4532.57368978, 1.77001663133</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.27255232139, 0.00410552481758, -1.75206479031e-06, 3.44799935851e-10, -2.56595301099e-14, 4375.97577714, 0.33447063674</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="Cd,si-(H)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.331116947403, 0.0202211851906, -2.94152264047e-05, 2.2456354248e-08, -6.76088095526e-12, 8956.77830167, 12.0990757727</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.95645898484, 0.0049494828001, -2.13495309117e-06, 4.33004570604e-10, -3.36781332692e-14, 8372.02598179, -3.31981264098</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(H)2(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.837256485318, 0.0187916292203, -1.82782231109e-05, 7.69457634925e-09, -6.23071414771e-13, -1112.5884729, 4.83269845138</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.34303584316, 0.00657124528907, -2.69024135996e-06, 5.73330125892e-10, -4.97153395878e-14, -1713.04241195, -10.4791798913</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(H)2(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.362606698878, 0.0153895053424, -7.06727226507e-06, -4.52122798758e-09, 3.87102857695e-12, 2897.81893808, 1.31773650367</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.46475823911, 0.00515395718066, -1.8723438377e-06, 3.06711570844e-10, -1.84427872665e-14, 1752.70805281, -20.0177838507</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(H)3(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.40308017882, 0.0108142146706, 1.66906385836e-06, -1.00616473154e-08, 5.03985440018e-12, 1328.93447233, 3.70090794204</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.38946355545, 0.00806671477829, -3.09117151792e-06, 5.33237110095e-10, -3.36781332692e-14, 669.031567593, -7.15616974195</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(H)3(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.7758390518, -0.000982632268389, 2.7458268489e-05, -3.40205650464e-08, 1.32023349032e-11, -5743.16114149, 4.52849633259</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.4606687515, 0.000102237190281, 2.9368134071e-06, -1.2027904739e-09, 1.36316253709e-13, -7387.84712312, -17.4223009238</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(H)3(Sid,c)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.0172038048, 0.00283725164934, 2.00611587553e-05, -2.87301694779e-08, 1.18973072529e-11, -1503.12273073, -1.3574669563</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.7375511186, 0.00795044503248, -3.13727848609e-06, 5.71325475102e-10, -3.92911554807e-14, -1985.30837886, -6.63044006051</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(H)3(Sid,o)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.64981565914, 0.0114437263198, 2.30405508666e-06, -1.1727723537e-08, 5.79608750092e-12, -16348.0530885, 6.24204869003</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.93336540775, 0.00830266217625, -3.34455937776e-06, 6.17231978189e-10, -4.27391548392e-14, -17096.6728249, -6.22206127279</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(H)(O)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-6.03144755706, 0.0493818932788, -7.48668289485e-05, 5.10959549964e-08, -1.30243636868e-11, -3666.87894342, 16.7459998436</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.84484002887, 0.00225723678935, -6.63539411435e-07, 1.30302301339e-10, -1.36316253709e-14, -5576.0013688, -34.6258535399</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(H)(O)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-3.5923168746, 0.0414498235431, -7.09611781472e-05, 5.69810875216e-08, -1.73823474839e-11, 2204.96560425, 6.404051884</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.22179456339, 0.00330967845401, -1.3210648705e-06, 3.16734824794e-10, -3.20744126373e-14, 943.589178498, -29.7032799038</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(H)(RSi)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.24016691068, 0.0268133744652, -3.1375510696e-05, 1.65068014534e-08, -2.86230442214e-12, 3369.06928903, -0.564138598954</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.88164541737, 0.00269024135995, -8.3193007778e-07, 1.06246491861e-10, -4.00930157966e-15, 1656.10969048, -36.1562546341</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(O)2(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-8.48469549468, 0.0765179289224, -0.000145297021695, 1.20760988714e-07, -3.74471643625e-11, 1418.2985676, 14.7800231781</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.37960067356, -0.000817897522252, 5.53283617994e-07, -6.0139523695e-11, -4.8111618956e-15, -678.04139684, -52.575102246</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(O)3(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-9.97013315039, 0.0807634651973, -0.000147541315451, 1.17765036319e-07, -3.50391842595e-11, -9693.33294231, 19.416880792</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.76858311282, -0.000332772031112, 6.99623125652e-07, -1.66386015556e-10, 8.82046347526e-15, -11824.3221445, -51.7780786888</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(O)(Si)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-4.25787394148, 0.0520245369714, -0.000103769231729, 9.23137980291e-08, -3.06340582935e-11, 3314.35668283, -0.62499187778</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.27303343758, 0.000515195252987, -2.18506936092e-07, 1.28297650549e-10, -2.08483682143e-14, 1944.94500827, -43.6529906721</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(RC)(H)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-2.48834988607, 0.0296775468543, -4.60555150581e-05, 3.79796973129e-08, -1.23657246646e-11, -3763.66790714, 13.3677878487</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.95549675247, 0.00121281372785, 9.68246331489e-07, -4.37013872183e-10, 4.8111618956e-14, -5528.32457274, -23.3975193088</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(RC)(H)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.12845908738, 0.00341743667519, 1.58056781787e-05, -2.16517764416e-08, 8.58911277224e-12, -5749.22455902, 7.31085824757</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.14890546067, 0.00496151070484, -7.73795204875e-07, -6.61534760644e-11, 1.84427872665e-14, -6697.48856366, -4.95276835017</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="C-(RSi)(Si)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.45788191254, 0.0316211707991, -4.95961124208e-05, 3.73256431932e-08, -1.09767744342e-11, 2032.91471434, -9.91792168754</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.83666105364, -0.000296688316895, 5.41255713255e-07, -1.84427872665e-10, 1.92446475824e-14, 163.1592116, -50.6110673484</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="O-(C)(H)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">3.7431767518, -0.0123677119103, 3.18757491936e-05, -2.98779170647e-08, 9.95843264234e-12, -19857.8284036, -4.18623410863</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.72961270147, 0.00266819020127, -1.34912998156e-06, 3.08716221634e-10, -2.56595301099e-14, -19837.0955711, 3.73332301326</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="O-(C)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.95770988791, 0.00430112263828, -2.51100659796e-06, 5.40722616056e-10, -3.06702673861e-14, -29151.6152494, -11.8245595956</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.947798893433, 0.0108471654238, -7.55953812846e-06, 2.12492983722e-09, -2.06879961511e-13, -28197.0938837, 3.74019035641</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="O-(H)(Sid,o)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.752017864685, 0.0212880128737, -2.63455648723e-05, 1.59375051856e-08, -3.72963763821e-12, -53132.3959014, 11.5147986321</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.80226124609, 0.00315331569241, -1.27495790233e-06, 2.3855344399e-10, -1.68390666346e-14, -54289.9814611, -13.4668687787</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="O-(H)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.428357853844, 0.0182815410586, -2.52921848225e-05, 1.66938805279e-08, -4.12169805777e-12, -38262.8965133, 3.25714212983</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.03897041135, 0.00305308315291, -1.3992462513e-06, 3.26758078743e-10, -2.96688316895e-14, -38950.218208, -13.9693970281</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="O-(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.30095189301, 0.0378876884613, -7.00491902293e-05, 6.01619596831e-08, -1.95669585122e-11, -49343.5351128, -4.22217110662</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.69978349771, 0.00699422660573, -4.84524095902e-06, 1.43132066394e-09, -1.47542298132e-13, -49833.4128205, -25.7525145607</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RC-(C)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.74595177528, -0.00562386575079, 2.47532586582e-05, -2.91528320905e-08, 1.1212296164e-11, 12553.1691562, -14.1153256202</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-1.31104161655, 0.0086941704755, -5.78341752867e-06, 1.46339507658e-09, -1.28297650549e-13, 13244.0984683, 0.581677885152</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RC-(C)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.315232759143, -0.00158197744098, 9.4471325569e-06, -1.18450155471e-08, 4.68687625121e-12, 3269.84304265, -4.40330060709</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.514794322829, 0.00320142731136, -2.17705075776e-06, 5.63306871943e-10, -5.05171999038e-14, 3428.29360547, -0.592748855153</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RC-(C)(H)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.301275770967, 0.00992760941666, -6.20771829912e-06, 8.69458854576e-10, 6.18154627152e-13, 19728.6383431, 12.3105360233</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.534038970411, 0.0081428915083, -3.95317135755e-06, 8.53981236469e-10, -6.89599871702e-14, 19778.010778, 11.5370471008</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RC-(C)(H)(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.653819364745, 0.0141340051591, -1.31404018776e-05, 2.86030284959e-09, 1.28632170114e-12, 17405.6903166, 4.91462812718</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.67909550156, 0.00437414802341, -1.89038569481e-06, 3.46804586641e-10, -2.32539491621e-14, 17092.9883196, -5.90050114481</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RC-(C)(H)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.48383242963, -0.00448756223189, 2.33132390119e-05, -2.80878908246e-08, 1.10499717038e-11, 11545.0819463, -1.20259631923</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.146740437816, 0.00609012909951, -3.39587843798e-06, 7.89832411194e-10, -6.57525459065e-14, 11793.562339, 5.99089272435</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RC-(H)2(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.829717162717, 0.014831577924, -1.49996345207e-05, 8.83661089635e-09, -1.96921962515e-12, 16819.8594743, 18.2661606473</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-4.06062063988, 0.0173462432844, -9.6604121562e-06, 2.48175767781e-09, -2.37350653516e-13, 18256.0289934, 37.0854918181</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RC-(H)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.417419246425, 0.0103945166857, -1.22893800974e-05, 8.31771849467e-09, -2.20953100481e-12, 9634.22038233, 11.8868709668</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.08082751985, 0.00348608772352, -1.08050677572e-06, 1.52353460027e-10, -8.01860315933e-15, 9289.7742611, 3.8718562308</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RC-(H)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.684206247608, 0.00960065513287, -1.38977801463e-05, 1.02745053299e-08, -2.92367683525e-12, 1420.71087714, 9.39877793029</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.00866009141, -0.000142330206078, 7.41720792238e-07, -2.66618555048e-10, 2.80651110577e-14, 764.436143391, -4.00387639392</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RC-(Si)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.749215758359, 0.00771607846016, -1.85057786996e-05, 1.87142698549e-08, -6.83857252433e-12, -8313.14385798, 0.762526305446</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.8522973298, -0.00305107850212, 1.99462753588e-06, -5.03167348248e-10, 4.41023173763e-14, -8936.72287773, -12.0059919275</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RSi-(C)2(H)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.117021744368, 0.00585229575052, -5.3868974546e-06, 2.96617419514e-09, -7.22036621801e-13, 4558.22775693, 5.34454311432</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.39523694972, 0.00203672520247, -6.99623125651e-07, 9.82278887018e-11, -4.00930157966e-15, 4198.75416186, -1.23664606247</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RSi-(C)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.206488790372, -0.000523655471593, 3.77162767912e-06, -5.05372315058e-09, 2.11646205652e-12, -3189.8792319, -3.78164340977</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.317536685109, 0.000218506936092, -2.00465078984e-09, -2.00465078983e-11, 3.20744126373e-15, -3249.89912479, -4.553659894</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RSi-(C)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.265967755332, 0.00219740933203, -2.09593808562e-06, 6.49515282013e-10, 8.02927498563e-14, -5485.89823401, -2.34816570462</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.024055809478, 0.000843957982519, -3.82888300858e-07, 8.82046347526e-11, -8.01860315933e-15, -5512.22278657, -3.645469671</floatArray>
+        </NASA>
+      </thermo>
+    </species> 
+    <species name="RSi-(C)(H)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.206436993822, 0.0133282513966, -1.42589293484e-05, 8.89644373051e-09, -2.39880849777e-12, 13997.3168617, 12.2128755631</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.83377435651, 0.00445433405501, -1.83024617112e-06, 3.38785983482e-10, -2.32539491621e-14, 13328.3473044, -1.01788827542</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(C)(H)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.710184876024, 0.0025725278945, -3.12148488426e-08, -1.24489345192e-09, 5.43311334915e-13, 6267.68883208, 3.20855046954</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.06086119798, 0.00230534840831, -9.98316093337e-07, 1.96455777404e-10, -1.44334856868e-14, 6124.18099151, 1.19588082582</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(C)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.754147949215, -0.00495161197951, 1.29964803164e-05, -1.39036959849e-08, 5.28509826988e-12, -2283.68617017, -5.49890126714</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.0505171999038, 0.000214497634512, -1.08251142651e-07, 2.60604602678e-11, -2.4055809478e-15, -2219.80474933, -2.57351231434</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(H)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.556085223366, 0.0140016630489, -2.08549488502e-05, 1.8241729019e-08, -6.41169226117e-12, 15312.1050197, 11.0082668917</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.84099109935, 0.00411955737311, -1.73001363163e-06, 3.24753427953e-10, -2.24520888461e-14, 14794.6694388, -0.0806505146453</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(H)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.471743601471, 0.0131591669501, -2.34342785335e-05, 2.15121237071e-08, -7.60192957567e-12, 6808.31986407, 7.25663568606</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.52273273996, 0.00267019485206, -1.28899045786e-06, 2.82655761366e-10, -2.32539491621e-14, 6468.19874089, -1.92257032146</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(Si)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.477721548326, 0.00655286875501, -1.19067423982e-05, 1.02199169005e-08, -3.36594980613e-12, -2527.95436656, -1.22796085502</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.971854702911, 5.61302221153e-05, 6.01395236949e-09, -1.40325555288e-11, 2.4055809478e-15, -2815.26384828, -8.13169086061</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)2(H)(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.27366842341, -0.00336277264891, 2.32832807936e-05, -2.99707748105e-08, 1.21444115695e-11, -4051.00257988, -7.81810338202</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.363242723118, 0.00744527303344, -5.05171999038e-06, 1.49146018764e-09, -1.53957180659e-13, -3778.99901272, -0.564086537265</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)2(O)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.274877872357, 0.00106470420035, 3.85493302622e-06, -7.61864269267e-09, 3.58730648023e-12, -9427.96911161, -8.38851761674</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-1.31585277845, 0.00448841311843, -3.58231096143e-06, 1.14666025178e-09, -1.23486488654e-13, -9068.93447768, -2.89687404411</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)2(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.45069416113, 0.00219254665647, 8.48343691741e-08, -3.34820590023e-09, 1.98962794676e-12, -2870.48994306, -17.7738931021</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.216502285302, 0.00502365487932, -4.02734343677e-06, 1.29700906102e-09, -1.40325555288e-13, -2416.43928325, -11.039333588</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)3(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.586506372043, 0.000394150100809, 1.36975011854e-05, -2.25209324668e-08, 1.02724115658e-11, -7370.21027456, -15.4000378673</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-1.5299494828, 0.00902493785583, -7.09445914522e-06, 2.27527864646e-09, -2.46171116991e-13, -6733.83109544, -4.65064438666</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(H)2(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.30271759223, -0.00160315696117, 2.30305651729e-05, -2.97845270219e-08, 1.19136747326e-11, -732.00226794, 1.18426285718</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.22925186433, 0.00614024536926, -3.22147381926e-06, 7.81813808035e-10, -7.05637078021e-14, -1024.29556061, -0.118357373949</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(H)2(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.189535881554, 0.0271856208317, -4.03569058238e-05, 3.18577154387e-08, -1.00773612477e-11, 8925.23251489, 2.95028718947</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.80153957181, 0.00578943148104, -2.68422740759e-06, 5.55288268784e-10, -4.24985967444e-14, 7893.32652708, -21.0415637515</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(H)(O)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.978746878976, 0.00692917741288, -7.0019437439e-06, 2.22262048293e-09, 3.08325009855e-13, -5623.98614488, 5.89439465913</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.336781332692, 0.00199262288509, -1.09453933125e-06, 2.68623205838e-10, -2.4055809478e-14, -5885.39641373, -0.47567233767</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(H)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.00244053543, 0.00559525371371, -3.4270241642e-06, 2.04615218102e-10, 3.8944888e-13, 576.65946161, -6.5925049307</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.70315131104, 0.00367652954855, -2.1088926309e-06, 5.45265014834e-10, -5.13190602197e-14, 398.92472967, -10.1765430387</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(O)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.592604455826, 0.0101643454929, -2.41162296362e-05, 2.20310338384e-08, -7.25801504972e-12, -4335.95631752, -5.40189015737</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.0921337503, -0.00103439980755, 1.32306952129e-07, 4.8111618956e-11, -9.6223237912e-15, -4458.11539317, -12.4496298298</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(O)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.0558374435458, -0.00495639801526, 6.94331010504e-06, -4.82597218513e-09, 1.27113039912e-12, -11674.9765896, -3.50025813787</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-1.17632908347, -0.000651511506696, 2.56595301099e-07, -5.81348729051e-11, 5.61302221153e-15, -11416.879122, 2.00539503646</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(O)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.659569193666, 0.0137934667941, -3.03464833862e-05, 2.91640285047e-08, -1.02996886363e-11, 1318.04818349, -16.4895581346</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.4055809478, 0.00135313928314, -1.09453933125e-06, 3.42795285061e-10, -3.6083714217e-14, 1194.13948702, -23.6950480535</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,c-(C)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.941299893219, -0.0029266085639, 1.29970611237e-05, -1.42288626677e-08, 5.21374240121e-12, -2861.82397326, -3.40125031133</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.178012990137, 0.00283658086761, -1.26292999759e-06, 2.66618555048e-10, -2.16502285302e-14, -2803.59319189, -0.284823964844</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,c-(C)(H)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.0347525933941, 0.0103518052936, -1.11806093867e-05, 6.23268353682e-09, -1.29166714386e-12, 4231.98866665, 6.10788600539</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.88116430118, 0.00328762729533, -1.31705556892e-06, 2.4256274557e-10, -1.68390666346e-14, 3802.87408098, -3.31639803669</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,c-(H)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.190243738161, 0.0193081303174, -2.83717099143e-05, 2.258808876e-08, -7.11583867478e-12, 10858.4841347, 11.3293744077</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.07914361318, 0.0047710688798, -1.98660893272e-06, 3.82888300858e-10, -2.80651110577e-14, 10196.3392437, -4.28045228539</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,o-(C)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.217329075196, 0.000956953038938, 1.71858312515e-06, -2.83812921343e-09, 1.22022187666e-12, -1260.13210823, -0.915756619097</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.192446475824, 0.00158968807634, -6.11418490899e-07, 1.12260444231e-10, -8.01860315933e-15, -1266.89914066, -0.888011040572</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,o-(C)(H)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.24919740467, 0.00561336794119, 5.770997956e-07, -5.34464526757e-09, 2.77628154549e-12, -7593.97688048, 6.4403334532</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.57517440462, 0.00352718306471, -1.50148344158e-06, 2.91676689921e-10, -2.12492983722e-14, -8033.57468372, -0.7731059478</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,o-(C)(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.00615498100746, 0.00170259192714, -3.61727236051e-07, -1.0528982682e-09, 5.96225604131e-13, -7093.14111308, 1.01904678663</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.515997113303, 0.000706639403416, -4.51046427712e-07, 1.17272071205e-10, -1.08251142651e-14, -7258.67632281, -1.78553407992</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,o-(C)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.0464560567397, 0.00234311439181, -1.66210640818e-06, 5.70572096479e-10, -2.63893588153e-14, 873.480802584, 0.681402595464</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.385133509743, 0.00112400769786, -3.83690161174e-07, 5.59297570363e-11, -2.64613904258e-15, 749.217774984, -1.55440229877</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,o-(H)(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.950035257055, 0.00687573123583, -2.7430600196e-06, -2.21620693866e-09, 1.58382521892e-12, -13130.1516307, 8.0591434016</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.14385374068, 0.00209546147061, -9.69449121963e-07, 1.94651591693e-10, -1.4192927592e-14, -13808.1498676, -3.60586846687</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,o-(H)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.542122420895, 0.0101133195623, -1.06571061234e-05, 6.57862807023e-09, -1.81391365331e-12, -5003.50912318, 9.16951887208</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.6220832331, 0.00331769705717, -1.43532996552e-06, 2.78646459787e-10, -2.00465078983e-14, -5543.36209522, -1.36207989847</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,o-(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.235347906858, 0.00311760475381, -3.3273645459e-06, 1.25399314207e-09, -6.31553492783e-14, -5381.83983735, 1.77518662907</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.03391869136, -0.000463876192767, 2.26124609093e-07, -5.57292919573e-11, 5.29227808516e-15, -5731.12126425, -4.76839780831</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,o-(O)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.1236831382, 0.00396942038721, -1.06868363583e-05, 1.10842406587e-08, -3.99055554994e-12, -10036.2881489, -0.430613263613</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.133509742603, 0.000568318498917, -2.3855344399e-07, 6.31464998797e-11, -6.81581268543e-15, -9850.14597959, 0.491990064582</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Sid,o-(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.592874196629, 0.0045312149565, -7.48716392378e-06, 6.95895140404e-09, -2.5391049231e-12, 2742.54714192, -1.86662348297</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.28602357469, 0.00116710768984, -4.75904097507e-07, 8.4997193489e-11, -5.45265014835e-15, 2606.12288647, -5.13834740295</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)2(O)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.09591275539, 0.0081880041151, -2.9313499331e-06, -4.03907495765e-09, 2.8612539063e-12, -1676.53412763, 18.6852906245</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.54438296849, 0.00179817175848, -2.94683666105e-07, -8.4195333173e-11, 1.92446475824e-14, -2421.12048324, 4.9104822294</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)2(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.34366960747, 0.00146892795311, 1.16743471364e-05, -1.62458394607e-08, 6.54600084986e-12, 4102.73916543, 1.68163733464</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.81380803464, 0.00485726886376, -2.39555769385e-06, 5.61302221153e-10, -4.97153395878e-14, 3745.75637711, -1.87280387628</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)3(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.05456963619, -0.00619898779407, 3.9692414956e-05, -4.70711195994e-08, 1.80302192654e-11, 2343.62138524, 9.69873592885</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.50974260284, 0.00362240397723, -4.7510223719e-07, -1.88437174244e-10, 3.84892951648e-14, 1244.60031844, -1.22050430384</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)3(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.937963961631, 0.0235300362974, -2.93875742664e-05, 2.15844322303e-08, -6.72980890831e-12, 10946.6299256, 6.75088451076</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.44623526582, 0.00687194290755, -2.88870178815e-06, 5.43260364045e-10, -3.76874348488e-14, 9856.31649539, -15.6417996521</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)3(Sid,o)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.44737205919, 0.024497705143, -2.95967736619e-05, 2.04314792609e-08, -5.97872434556e-12, -4038.81068801, 7.90801808834</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.39740197258, 0.00679736989816, -2.91596503889e-06, 5.62505011627e-10, -4.02533878598e-14, -5252.72648256, -16.7872725667</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)(O)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.722566660789, 0.0144106171887, -3.67811479592e-05, 3.86463167341e-08, -1.4398540448e-11, 131.008667799, 5.67671169313</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.971854702911, 0.000340790634272, -2.28530190041e-07, 8.01860315933e-11, -9.6223237912e-15, 51.0437090555, -0.976271387147</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)(O)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.0660769954248, -0.00393244296722, 7.52484186289e-06, -5.00931018259e-09, 1.0259279022e-12, -7644.63522653, 9.71232864407</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.692807312966, -0.000144334856868, 6.47502205116e-07, -3.06711570844e-10, 3.92911554807e-14, -7597.83471516, 12.3713163382</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)(O)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.6463089597, 0.00375813503806, -3.09050443436e-06, 1.65154745686e-09, -4.29283027172e-13, 4381.99528337, -8.13968202728</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.14096704354, 0.00243565070965, -1.37118114025e-06, 3.66851094539e-10, -3.6083714217e-14, 4218.00582702, -10.7639040433</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(O)2(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.147133516957, 0.0119444616749, -3.58753447821e-05, 3.89526181156e-08, -1.46340433967e-11, 938.59635064, -6.83211220132</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.07770026461, -0.00116470210889, 3.50813888221e-07, -2.00465078983e-11, -3.20744126373e-15, 1009.95720228, -10.9637005543</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(O)3(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.497335789248, 0.00714998278043, -2.87029924085e-05, 3.23576713747e-08, -1.21957070015e-11, -5386.66870032, -1.45953374431</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.209285542459, -0.00337583193008, 1.59169272713e-06, -3.40790634272e-10, 2.72632507417e-14, -5198.5896035, -3.11848406266</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(O)4" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.884664444512, -0.00668837222228, 6.36476157933e-06, -2.32964810456e-09, -3.43645152543e-14, -13418.8860418, 6.56788153188</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-1.53716622564, -0.00390105043701, 2.53588324914e-06, -7.47734744607e-10, 7.77804506455e-14, -13301.6597097, 9.64698084007</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(O)(Si)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.53555384365, 0.00924437693376, -2.31285528372e-05, 2.3793021437e-08, -8.73812081118e-12, 3959.56331375, -17.45386547</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.80971854703, 7.41720792238e-05, -3.06711570844e-07, 1.48344158448e-10, -1.92446475824e-14, 3830.61470244, -22.7943591528</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(C)2(H)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-2.48637355253, 0.0328017991025, -4.33948295571e-05, 2.77555912637e-08, -6.85804917607e-12, 5184.0728183, 1.68138239954</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.34447919172, 0.00586560821105, -2.98893432764e-06, 6.47502205116e-10, -5.05171999038e-14, 3768.19964603, -31.4370867356</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(C)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.822883625619, 0.0310767792403, -5.41697856521e-05, 4.47633535963e-08, -1.42321159526e-11, 5070.40010976, -15.3585075792</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.59225402935, 0.00381485045305, -2.31136236068e-06, 5.69320824312e-10, -4.97153395878e-14, 4212.1138217, -40.246492056</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(C)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-2.52594545428, 0.0334332392845, -5.11685964949e-05, 3.69550957726e-08, -1.0282919882e-11, 2068.61231541, -8.25818059892</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.93312484965, 0.00454855264213, -2.642129741e-06, 6.23446395638e-10, -5.21209205356e-14, 913.148966654, -38.7015542708</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(C)(H)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.543801385159, 0.0244263974057, -2.77251652675e-05, 1.60501837078e-08, -3.65577419116e-12, 7819.19976154, 3.6489759439</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.99326437335, 0.0075916125411, -3.8048271991e-06, 8.3994868094e-10, -6.81581268543e-14, 6811.11595636, -18.6441738439</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(C)(H)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.211675074446, 0.0277676817185, -4.42950321419e-05, 3.55346189366e-08, -1.12180134531e-11, 7983.82333636, -7.87364513545</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.68126052442, 0.00493545024457, -2.56595301099e-06, 5.73330125892e-10, -4.65078983241e-14, 7103.33152254, -30.8442683916</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(C)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.33976217269, 0.0352014242654, -7.0795421798e-05, 6.52264083518e-08, -2.25089103739e-11, 7186.79869608, -18.0086193193</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.47510223719, 0.00245770186833, -1.47542298132e-06, 3.5682784059e-10, -3.04706920055e-14, 6358.83640394, -44.0889730712</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(H)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.674887240237, 0.0241228456903, -3.54561657051e-05, 2.8277936738e-08, -9.06766369373e-12, 10378.6746901, -2.41657830697</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.96511907626, 0.00574733381445, -2.66819020127e-06, 5.49274316414e-10, -4.16967364285e-14, 9473.845838, -23.0845300619</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(H)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.903822742413, 0.0173231738439, -6.99641181456e-06, -5.1740126586e-09, 3.99875624866e-12, 10373.0283908, 6.46437395779</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.62593216262, 0.0086741239676, -4.00930157966e-06, 8.27920776201e-10, -6.33469649587e-14, 9291.67778116, -13.0766709546</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(H)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.752554172397, 0.0382963977189, -7.24657332445e-05, 6.57879486773e-08, -2.26750558521e-11, 9856.23145799, -6.16585810639</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.53043059899, 0.00453251543581, -2.36949723358e-06, 5.43260364045e-10, -4.57060380082e-14, 8875.07794003, -34.7605230668</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(Si)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.19302709546, 0.0380824984905, -7.40285756434e-05, 6.63337950555e-08, -2.2386896725e-11, 8746.72844407, -11.8516854008</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.78061101756, 0.00178213455216, -9.42185871221e-07, 2.02469729773e-10, -1.52353460027e-14, 7619.64143183, -43.8158420736</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(Si)4" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.267840503027, 0.0289942604617, -5.88082782141e-05, 5.4205704845e-08, -1.86631778379e-11, 439.256734713, -14.8337070589</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.15756555208, 0.000467083634031, -1.94451126614e-07, 3.20744126373e-11, -1.60372063186e-15, -449.410484392, -39.6983378112</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="O-(RC)(C)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.21645834299, 0.00541014013505, -1.98405638686e-05, 2.58951842369e-08, -1.11536749441e-11, -12465.589668, -6.42546340418</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.0784219389, -1.80418571085e-05, -7.69785903296e-07, 2.58599951888e-10, -2.16502285302e-14, -12787.647128, -10.7243820584</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(C)(H)2(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.423470767909, 0.0100706575811, 2.47726721387e-06, -1.36360507494e-08, 7.26797488852e-12, -4577.52967901, -1.67865015267</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.85927351455, 0.000970250982279, 1.25691604522e-06, -5.43260364045e-10, 6.0139523695e-14, -5887.97592674, -25.1718124298</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="O-(RC)(H)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">3.7431767518, -0.0123677119103, 3.18757491936e-05, -2.98779170647e-08, 9.95843264234e-12, -19857.8284036, -4.18623410863</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.72961270147, 0.00266819020127, -1.34912998156e-06, 3.08716221634e-10, -2.56595301099e-14, -19837.0955711, 3.73332301326</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="O-(RC)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.86706255547, 0.00637777902742, -1.12672862797e-05, 9.38276216576e-09, -3.22271823814e-12, -28960.5010812, -18.4861955929</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">8.27279287948, -0.00763771950926, 4.63876192767e-06, -1.26292999759e-09, 1.26693929917e-13, -30668.9575988, -47.0539723299</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="O-(C)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.59355058012, 0.00176650398052, -8.36783427307e-06, 1.18941493783e-08, -5.31071414542e-12, -12492.5221957, -7.88540821684</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-8.42915564109, 0.0220651912437, -1.63018202229e-05, 4.70892470532e-09, -4.67484564189e-13, -9146.83737085, 46.2015667998</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Cd,c-(H)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">4.15570852679, -0.0296979551663, 0.000117479202086, -1.46442405593e-07, 6.10726861287e-11, 2322.60421306, -4.9432570758</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">7.45730093818, -0.0040213294844, 4.49843637238e-06, -1.53556250501e-09, 1.68390666346e-13, -202.897480876, -30.0122994734</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Cd,c-(H)(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.72954613866, -0.00262257583361, 1.91421673055e-05, -2.25912874844e-08, 8.56394443739e-12, 3802.42844511, -5.71112858281</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.05436612942, 0.00279448320103, -5.9939058616e-07, -4.61069681662e-11, 1.84427872665e-14, 3422.40343523, -8.87987043702</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="O-(Cd,c)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-4.79062345321, 0.0584028694131, -0.000145241325647, 1.56994129304e-07, -6.13116457163e-11, -44861.3005585, 15.5409657587</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-3.51214818379, 0.0154538529388, -1.06767701066e-05, 3.10520407345e-09, -3.16734824794e-13, -43246.8703079, 18.4238908591</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="O-(C)(Sid,o)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.78104412944, -0.00260404866385, 2.22358829931e-05, -2.87131547069e-08, 1.13159125238e-11, -36701.6354013, -7.08158354138</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.298292037527, 0.0102317376313, -7.39716141448e-06, 2.08483682143e-09, -2.02068799615e-13, -36154.9966051, 4.66289439133</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="O-(H)(Sid,o)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.661092239436, 0.0177301991794, -2.19869189782e-05, 1.31858052994e-08, -3.01091384798e-12, -45679.624347, 9.218186308</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.95116670676, 0.00234624328442, -8.49571004731e-07, 1.3992462513e-10, -8.49971934889e-15, -46662.5161818, -12.0032929733</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(H)(O)(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-3.00854743262, 0.0437762323128, -8.04844356046e-05, 6.88480385174e-08, -2.22513262822e-11, 9700.38489098, 1.44947757685</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.22973298051, 0.00191444150429, -1.98460428194e-07, -8.01860315933e-11, 1.44334856868e-14, 8409.91234032, -36.3301093087</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(C)(H)(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.09275106315, 0.00429490385571, 9.19278034528e-06, -1.7982574311e-08, 8.33357998992e-12, 4401.21071777, -11.6698060179</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.86673081549, 0.00572127335418, -3.52818539011e-06, 9.66241680699e-10, -9.46195172801e-14, 4102.80403149, -16.2913774892</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)3(RO)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.44121136964, 0.0209565788205, -1.76919120827e-05, 6.94073329348e-09, -7.85413421653e-13, -1759.44566076, 14.4603443874</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.11017560741, 0.00733902654158, -3.1553203432e-06, 6.11418490899e-10, -4.41023173763e-14, -3031.0978591, -9.5180177394</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(O)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.483867960094, 0.00101369059963, -7.50171907334e-06, 9.7109912407e-09, -3.95941672667e-12, -958.262335685, -2.62324116336</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.52441664662, -0.00134512067998, 7.33702189079e-07, -1.82423221875e-10, 1.68390666346e-14, -886.443346232, -2.35850004584</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(C)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-5.27706901582, 0.0564484424449, -0.000107024334805, 8.99163107426e-08, -2.82658992825e-11, -2908.78228648, -4.0345319969</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.21289391388, 0.0010063346965, -5.31232459306e-07, 1.182743966e-10, -8.82046347526e-15, -4377.29880117, -51.432663148</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(H)(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.413164457593, 0.0285186134455, -5.15862590681e-05, 4.52678992817e-08, -1.51561171788e-11, 8244.19751403, -12.5784639384</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.32523454414, 0.00601194771871, -3.89102718306e-06, 1.12661374389e-09, -1.15467885494e-13, 7714.24118833, -29.9894374236</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(O)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-2.62057973212, 0.019789512105, -4.14280769653e-05, 3.81373994069e-08, -1.31084689112e-11, -4396.0792528, -2.3208106419</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.18258359394, -0.00491740838746, 3.3317296127e-06, -9.16125410953e-10, 8.90064950686e-14, -5641.83173543, -30.3621527845</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)2(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.692158734667, 0.0249443229619, -4.37826331296e-05, 3.5809122924e-08, -1.11679029319e-11, 5525.38388858, -25.7141768433</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.0093817657, 0.00782615668351, -6.07609654398e-06, 1.94651591693e-09, -2.1088926309e-13, 5472.64748621, -34.9078062311</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(H)2(RO)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.05768356571, 0.0192577759343, -1.42736922417e-05, 1.5151384452e-09, 1.88499951662e-12, -4898.0027727, 7.11973630761</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.64277122925, 0.00854983561864, -4.94146419694e-06, 1.31906021971e-09, -1.28297650549e-13, -5788.1839702, -11.0346619323</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(O)(RSi)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.66536928119, 0.0150656516509, -3.75943739335e-05, 3.89014510808e-08, -1.43936429433e-11, 9896.97041296, -21.1164220898</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.07264854462, -0.000829925426991, 5.47269665624e-07, -1.62376713976e-10, 1.68390666346e-14, 9607.45903548, -31.5019074223</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)2(O)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-4.49474502639, 0.0509352290833, -9.1141298112e-05, 7.15980557615e-08, -2.1063707908e-11, 6088.5831575, -6.93738941375</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.60283858552, 0.00697418009783, -4.88132467324e-06, 1.24689279128e-09, -1.09053002967e-13, 5615.0593203, -36.9229738803</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(O)2(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.536562334746, 0.0155294533451, -4.526546975e-05, 4.98504795903e-08, -1.90873979041e-11, 6701.0022006, -13.2827339282</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.73033437575, -0.00224320423382, 1.459385775e-06, -4.26990618234e-10, 4.41023173763e-14, 6561.67461528, -22.050262828</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)(O)(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.0613344136, 0.0115965402554, -2.62291898121e-05, 2.77019002043e-08, -1.06080928793e-11, 10358.2110813, -13.0332898773</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.58191003127, 0.00131705556892, -4.08948761126e-07, 3.00697618475e-11, 2.4055809478e-15, 10166.4887084, -19.5963711007</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)2(H)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.15044340191, 0.0147246459843, -1.36504903013e-05, 4.19983570574e-09, 3.95387196523e-13, 6319.36061901, -16.9794006927</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.09526100553, 0.00966241680699, -6.78975222516e-06, 2.0708042659e-09, -2.1890786625e-13, 6273.86178451, -21.0108584303</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)2(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.570214961452, 0.0292110993803, -5.30225238309e-05, 4.88966155223e-08, -1.72479006208e-11, 10494.4855948, -3.9974478526</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.27303343758, 0.00495549675247, -2.25322748777e-06, 4.69088284821e-10, -3.68855745329e-14, 9661.04845174, -25.7726572332</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RO)(O)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.944264642732, 0.000183114535355, -3.06102334345e-06, 4.41507177101e-09, -1.98828351143e-12, -15786.4109118, 2.62881344601</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.71277363483, -0.0025639483602, 1.86833453612e-06, -5.87362681421e-10, 6.33469649587e-14, -15984.2252314, -1.24290411364</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(O)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-5.23607404899, 0.0555911634324, -0.000101590545838, 8.47927048197e-08, -2.68095938069e-11, 217.812017492, -1.55346647306</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">7.52465720471, -0.00242362280491, 2.22315772592e-06, -6.37478951167e-10, 6.09413840109e-14, -2156.65506755, -61.8344465731</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)2(RO)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.14281849493, 0.0256384878633, -3.71479021919e-05, 2.91829313237e-08, -9.27820703191e-12, -3057.67037167, 6.2963530907</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.11017560741, 0.00536645016438, -2.38152513832e-06, 4.7911153877e-10, -3.6083714217e-14, -4150.27070319, -17.8706759546</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(C)2(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.979617514521, -0.009580835398, 2.08283013775e-05, -2.01746836857e-08, 7.20187009803e-12, -6256.26525821, -8.177565432</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.998316093337, 0.000509181300617, -3.548231898e-07, 1.10255793441e-10, -1.2027904739e-14, -5890.75374647, 1.02888948182</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RO)(O)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-7.33339873611, 0.0724459955694, -0.000132076588001, 1.07913454603e-07, -3.31433532596e-11, -7353.1768336, 21.7856146687</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">7.38994467164, -0.000328762729533, 1.10656723599e-06, -4.04939459546e-10, 4.33004570604e-14, -9641.25839865, -45.926989875</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)(RO)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.249262171603, 0.0264945381238, -4.02465187807e-05, 2.9727872542e-08, -8.59946245232e-12, 4052.57897276, -11.5651497627</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.05171999038, 0.00487531072087, -2.95285061342e-06, 7.11651030391e-10, -6.0139523695e-14, 3174.70292523, -34.2297166881</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RO)(O)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-4.39619044645, 0.0566270133438, -0.000100603166544, 8.27290313396e-08, -2.59972938997e-11, -1045.90075309, 8.16755237366</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">7.84700505172, 0.000453051078502, 1.40325555288e-07, -9.22139363323e-11, 1.12260444231e-14, -3279.6718215, -49.4982779721</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(H)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.0661551973648, 0.0210920502528, -2.89597747997e-05, 2.07854675828e-08, -5.85134728033e-12, -4236.41099929, -1.89784768678</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.15034880924, 0.00189439499639, 9.6223237912e-08, -1.62376713976e-10, 2.16502285302e-14, -5477.05848448, -27.7481591502</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(H)(O)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.0223849197504, 0.00942846824057, -1.6998016752e-05, 1.55901350894e-08, -5.47234166317e-12, 2800.73066434, -1.67007943276</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.60933365408, 0.0011626974581, -1.78413920295e-07, -8.61999839628e-11, 1.84427872665e-14, 2516.29008277, -9.23287374647</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="O-(H)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.0197379253, 0.015390930616, -2.37334238888e-05, 1.79306745218e-08, -5.19536204168e-12, -30195.5830522, 3.8347841768</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.07264854462, 0.00181621361559, -5.45265014834e-07, 7.2167428434e-11, -3.20744126373e-15, -30764.3256094, -10.618540659</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(O)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.498488476255, 0.00178964402809, -1.52292155754e-05, 2.04812666976e-08, -8.5144439104e-12, -4291.72924534, -2.89708572401</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.103439980755, -0.001774115949, 8.78037045947e-07, -1.98460428193e-10, 1.68390666346e-14, -4020.20978239, 0.102367903638</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(H)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.576555966893, 0.0121671798723, -1.37247832884e-05, 8.2933683268e-09, -2.05769342786e-12, -2211.57365138, -4.66111630298</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.7190281453, -0.000487130141929, 1.27696255312e-06, -4.57060380082e-10, 4.97153395878e-14, -3414.45928037, -26.7905656597</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(Si)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-2.45291595487, 0.0341767466672, -5.49161208763e-05, 4.20936727436e-08, -1.25386209728e-11, -2641.04366232, -10.634650786</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">7.1012749579, -0.00197658567877, 1.63379039371e-06, -4.35009221394e-10, 3.92911554807e-14, -4851.95075983, -57.7225374995</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(C)(O)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.0722634401373, -0.00603399229861, 1.6323818378e-05, -1.7909095901e-08, 6.87344371611e-12, -7743.70416804, -4.05286690061</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.66634592254, 8.01860315933e-05, -1.38320904498e-07, 5.81348729051e-11, -7.2167428434e-15, -7690.47981131, -1.10275467531</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(C)2(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.407499422691, 0.0106355385186, -9.46488773062e-06, 6.7789048918e-10, 1.77330738791e-12, 822.32978786, -18.6490386222</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.517199903777, 0.00782615668351, -5.9939058616e-06, 1.88036244086e-09, -2.00465078983e-13, 1054.46277344, -18.2403126661</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(O)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.262035272771, 0.016872931749, -4.36152297597e-05, 4.59389046639e-08, -1.72145810028e-11, 3780.48516391, -12.0623926501</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.16742843397, -0.000908106807794, 6.77571966963e-07, -2.46572047149e-10, 2.96688316895e-14, 3574.79270422, -22.1257992568</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(O)2(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-7.66537601259, 0.0719347473488, -0.000134018698021, 1.12101296333e-07, -3.52073942335e-11, 8342.49129407, 9.00439814993</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.31946114987, 0.000523213856146, 5.15195252987e-07, -2.4055809478e-10, 2.72632507417e-14, 6257.32189672, -54.8162272909</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(O)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.693390983158, -0.00183472755671, 8.40475253726e-06, -1.10034189766e-08, 4.5494455516e-12, -9605.20226927, -0.923570223178</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.144334856868, -0.000779809157245, 4.57060380082e-07, -1.2228369818e-10, 1.2027904739e-14, -9845.28716647, -4.29007857999</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)(O)2(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.256488271595, 0.0110523742486, -2.17577431441e-05, 1.96092944967e-08, -6.62252597268e-12, 6444.79351946, -1.67645392156</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.72311763291, -0.000797851014353, 9.12116109374e-07, -3.38785983482e-10, 3.92911554807e-14, 6001.31373287, -13.2161243993</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RC-(C)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.857709182172, 0.0138983417126, -2.12720332054e-05, 1.42426860181e-08, -3.65381601439e-12, 8760.29284636, -7.6073381706</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.39764253067, 0.00194852056772, -1.25491139444e-06, 2.88669713736e-10, -2.24520888461e-14, 8569.70905995, -17.5019978448</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)(O)2(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-8.02776834303, 0.0732197508451, -0.000134023390173, 1.06572113159e-07, -3.16786415004e-11, 3988.48501556, 9.05624611934</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.66273755112, 0.00115868815652, -9.92302140967e-07, 2.54590650309e-10, -2.16502285302e-14, 2232.79682804, -52.4439732185</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)(RO)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.73392918146, 0.0376177398806, -6.38947699468e-05, 5.1522851777e-08, -1.59824241628e-11, -1526.74026823, 1.21211294374</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.44310801058, 0.00568518963996, -3.31368775559e-06, 7.79809157245e-10, -6.49506855906e-14, -2428.93044417, -26.8803600124</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(H)(O)2(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-6.22963233352, 0.0577993064912, -9.66519999931e-05, 7.20982407521e-08, -2.01359534059e-11, 3749.98587228, 13.6845596631</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.92975703632, 0.000757757998557, 3.72865046909e-07, -2.04474380563e-10, 2.4055809478e-14, 1813.42600886, -42.7195077326</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(O)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.797431691135, 0.0319290411873, -6.69697639794e-05, 6.32503799997e-08, -2.21800869551e-11, 9014.30590422, -14.3740978101</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.58744286745, 0.00112661374389, -5.77339427472e-07, 1.00232539492e-10, -4.8111618956e-15, 8252.31858977, -38.4590480963</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RC-(O)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-4.14045702246, 0.0265066599271, -5.16823173877e-05, 4.5601466702e-08, -1.52990640302e-11, 1548.64998723, 11.2253414711</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.53067115708, -0.00327960869217, 2.30534840831e-06, -6.29460348007e-10, 5.9337663379e-14, 260.818942422, -20.4940351134</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(H)2(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.597342125964, 0.00942132264551, -9.26949637093e-06, 5.58932350385e-09, -1.52733000877e-12, 14690.0246375, 10.7397356217</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.28770748136, 0.0039431481036, -1.74404618715e-06, 3.50813888221e-10, -2.64613904258e-14, 14239.7168387, 2.14950758188</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)2(RO)(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.184616596619, 0.0156052642089, -1.41973572503e-05, 1.57813494364e-09, 2.29001025269e-12, -13737.832045, -4.67104394485</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.28530190041, 0.0070182824152, -5.36645016438e-06, 1.70796247294e-09, -1.84427872665e-13, -14026.2314045, -14.4352020026</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)(RO)(O)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.775315148845, 0.0129629181974, -3.01657557426e-05, 3.13223982493e-08, -1.17435648112e-11, -10652.4917063, 8.93434281624</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.69425066153, 0.000352818539011, 2.52585999519e-07, -1.72399967926e-10, 2.4055809478e-14, -10885.649207, 0.636095603012</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)(RO)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.42876846918, 0.0272337829835, -4.96570214934e-05, 4.44900624619e-08, -1.52324218655e-11, -3684.037248, -2.532594505</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.45657926389, 0.00280851575656, -1.22484163259e-06, 2.4055809478e-10, -1.76409269505e-14, -4623.8544788, -26.108164213</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RC-(O)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-4.9319913701, 0.0432682265792, -8.11623826092e-05, 6.63498222468e-08, -2.04565591382e-11, 6048.63950667, 9.96246579175</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.94587442867, -0.0038850132307, 2.65014834416e-06, -7.09646379601e-10, 6.57525459065e-14, 4470.28811488, -35.8018612038</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RC-(H)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-2.87947480375, 0.024481019925, -3.96435156037e-05, 3.06412391293e-08, -9.03900884419e-12, 8989.07861115, 12.8654680425</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.97738753909, 0.00168791596504, 1.20279047389e-08, -1.36316253709e-10, 1.92446475824e-14, 8192.99189291, -9.72459448502</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(H)2(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.747651516468, 0.019669847756, -2.20526728624e-05, 1.28254120411e-08, -2.96315160981e-12, 8936.59392614, -4.39239231814</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.47365888862, 0.00856988212653, -5.0477106888e-06, 1.36516718788e-09, -1.33910672761e-13, 8391.46167008, -17.5127282075</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(C)2(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.66980988526, 0.0299013923823, -4.712132861e-05, 3.37615565263e-08, -9.21869518578e-12, -188.552943815, -20.4879950347</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.15852778446, 0.00548873386256, -3.93312484965e-06, 1.03039050597e-09, -9.14120760164e-14, -849.294390646, -42.3938455258</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(H)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.780141649721, 0.022432391103, -2.41737867978e-05, 1.11380681499e-08, -1.35167634302e-12, 65.2296306483, -9.38340457062</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.52152994948, 0.00011626974581, 9.40181220432e-07, -3.50813888221e-10, 3.76874348489e-14, -1855.35620873, -46.5801413557</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(H)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.420422223197, 0.0114296332681, -2.17681443767e-05, 1.99270579902e-08, -6.84673904388e-12, 7615.70444322, 8.96994458019</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.38320904498, 0.00150348809237, -7.03632427231e-07, 1.50348809237e-10, -1.2027904739e-14, 7330.87684714, 0.788348975895</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(O)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.365841936915, -0.00104112708827, -1.97133064484e-06, 4.13433455617e-09, -2.00491866374e-12, -3119.72374253, -8.41849569584</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.635073370219, -0.00243565070965, 1.81220431401e-06, -5.9538128458e-10, 6.65544062224e-14, -3184.73733857, -9.71682072914</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(H)(RO)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-3.21989746525, 0.044565745048, -7.19354325738e-05, 5.57946491358e-08, -1.67614750181e-11, -884.518787684, 14.0263416528</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.46860716863, 0.00259802742362, -6.53516157485e-07, 2.4055809478e-11, 6.41488252746e-15, -2760.73306335, -32.1744926608</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)(RSi)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.0133729454386, 0.0334325386866, -6.53402364551e-05, 6.05274663335e-08, -2.10648993482e-11, 9089.06378919, -10.7282108866</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.64830406543, 0.00308114826397, -1.48945553685e-06, 3.28762729532e-10, -2.72632507417e-14, 8161.63703172, -36.6048646725</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(H)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.998748647173, 0.0154722239665, -3.09759466037e-05, 3.02942938428e-08, -1.10864090997e-11, 8579.25058213, -11.1330144773</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.17536685109, 0.00239956699543, -1.03239515676e-06, 1.68390666346e-10, -8.01860315933e-15, 8273.57474291, -20.7953090168</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)2(O)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.13032774437, 0.00673292703737, -5.10560349381e-06, 2.98729806505e-09, -9.83582982875e-13, 10664.0703785, -4.96987461628</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.20182824152, 0.00383690161174, -1.51551599711e-06, 2.52585999519e-10, -1.44334856868e-14, 10333.7348789, -10.6012728404</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)2(RO)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.118853691307, 0.0244230314341, -3.45302566645e-05, 2.36456560481e-08, -6.35634633267e-12, 1726.38113681, -13.4042302531</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.37671397643, 0.00986488653677, -6.40485927351e-06, 1.60372063187e-09, -1.39523694972e-13, 1639.58016327, -22.7124242089</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(C)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.08743653005, -0.00484620938595, 4.54443162345e-06, -1.33676624302e-09, -1.46510999386e-13, -3297.57023591, -7.12984204797</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.437815732499, -0.000330767380322, 6.21441744848e-08, 1.2027904739e-11, -3.20744126373e-15, -2901.80240842, 0.64650510051</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)2(H)(RO)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.175527006151, 0.0242902168147, -2.14444929235e-05, 3.99102788983e-09, 2.26348054155e-12, -8316.11468299, 1.38293161666</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.55063747895, 0.0107329003288, -7.31096143052e-06, 2.17905540855e-09, -2.26926469409e-13, -9023.72356691, -16.6393574563</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)2(O)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.83408584957, 0.00492729282937, -9.76143885561e-07, -5.36495336931e-09, 3.44067599702e-12, 3257.05866542, -23.718537644</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.29179696897, 0.00598588725844, -4.82318980034e-06, 1.57966482239e-09, -1.73201828242e-13, 3539.01998687, -20.5190135122</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(H)(RO)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.704591309916, 0.0298401457526, -4.06846198494e-05, 2.81112685801e-08, -7.72169319019e-12, 3761.91498993, 4.16216865902</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.24729372143, 0.0037847806912, -1.42530671157e-06, 2.50581348729e-10, -1.68390666346e-14, 2175.47575979, -30.0733611598</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(RO)(O)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.607146071713, 0.00991061757682, -9.15628757312e-06, 1.65515942871e-09, 1.06082420231e-12, -15603.3298873, 2.32349044843</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.51864325235, 0.00314930639083, -2.17905540855e-06, 6.57525459065e-10, -6.89599871702e-14, -15984.5501995, -6.99297848421</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(O)(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.91495748841, 0.0076204596044, -2.39633567069e-05, 2.7122649492e-08, -1.05313709317e-11, 7086.15082498, -27.4638880474</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.38874188116, 0.00217705075776, -2.02670194852e-06, 7.03632427231e-10, -7.93841712774e-14, 7536.20951688, -23.1604956096</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)3(RO)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.779575403663, 0.0166525871281, -7.49875367333e-06, -1.01350266489e-08, 7.69500244278e-12, -12063.8627437, -11.633154723</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.33822468126, 0.0114004490418, -8.73025418972e-06, 2.78646459787e-09, -3.01499478791e-13, -12217.0152334, -18.8400724224</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(C)(O)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.659694045189, 0.00180989532044, 6.37794765862e-07, -3.47037534747e-09, 1.86647930836e-12, -1118.74334047, -15.1608649063</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.327159008901, 0.00268623205838, -2.08283217064e-06, 6.39483601957e-10, -6.65544062224e-14, -958.359022091, -13.2665120781</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(H)(O)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.437771498864, 0.00899876595878, -1.84274127221e-05, 1.77236948876e-08, -6.31770481859e-12, 3241.15823878, 7.35413515255</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.856386817416, 0.00105444631545, -4.53051078502e-07, 8.82046347526e-11, -6.41488252746e-15, 3074.32043894, 1.67221929985</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RO)(Si)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.940218868584, 0.0357684922576, -7.42763428938e-05, 6.98312752007e-08, -2.43853658292e-11, -4876.58795488, -11.4966195166</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">7.34904979553, 0.000815892871462, -3.44799935851e-07, 6.21441744848e-11, -4.00930157967e-15, -5886.95539041, -40.6193894004</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(O)3(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-9.33509130624, 0.0796620316562, -0.00014700833213, 1.20893113897e-07, -3.7271621083e-11, -2290.02767548, 12.9889751262</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.02598027424, 0.000252585999519, 1.04642771229e-06, -4.33004570604e-10, 4.8111618956e-14, -4430.37996506, -56.6273761252</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RO)(Si)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.52203137602, 0.0402138448989, -6.8045714684e-05, 5.48322862751e-08, -1.70468238921e-11, 5951.02102137, -1.0087835702</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">7.71950926149, 0.000896078903055, -2.06479031353e-07, 2.4055809478e-11, -1.60372063186e-15, 4048.29841304, -45.4408314129</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)(H)(O)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-3.47370376421, 0.0441188915504, -7.69402202556e-05, 6.07925894789e-08, -1.80746558787e-11, 7352.78273016, 0.799773781656</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.01900408949, 0.00612220351215, -3.46203191404e-06, 8.11883569882e-10, -6.81581268543e-14, 6759.56637525, -27.3007251038</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(O)2(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.235450770544, 0.0106124060413, -2.03962464706e-05, 1.74969186562e-08, -5.66322709714e-12, 1518.84496616, -13.7496522599</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.60692807313, 0.00171999037768, -1.48544623527e-06, 4.99158046668e-10, -5.53283617994e-14, 1417.83582222, -19.5225207716</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RSi)(Si)3" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.390018649455, 0.0398108669257, -8.33079560905e-05, 7.82758535367e-08, -2.72441703074e-11, 6759.14889917, -17.7081970342</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.70435410152, 0.000699623125652, -3.18739475583e-07, 6.41488252746e-11, -4.8111618956e-15, 5662.38019202, -49.8370239124</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(C)(H)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.11362316478, 0.0289578548125, -4.91720239531e-05, 3.92326604479e-08, -1.19269994871e-11, -1626.92754723, -10.1087772879</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.03897041135, 0.00340790634272, -1.87835779007e-06, 4.47037126133e-10, -3.76874348489e-14, -2450.55885615, -33.8423042815</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(C)(O)(RSi)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-4.54614817388, 0.0589987776729, -0.000121986830507, 1.10578244568e-07, -3.7126314428e-11, 10062.1227475, -5.04348248506</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.30839547751, 0.0032134552161, -2.06479031353e-06, 5.03167348248e-10, -4.24985967445e-14, 9228.23306524, -42.9634623273</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(O)(RSi)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-4.44865091459, 0.0563878689973, -0.000108772402065, 9.47599732326e-08, -3.09987161202e-11, 10325.3327934, -2.20109262458</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">6.67789271109, -8.01860315933e-05, 4.85125491139e-07, -1.72399967926e-10, 1.76409269505e-14, 8543.46272077, -53.3312067026</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(H)2(RO)(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.186180973708, 0.022306740817, -3.41087970545e-05, 2.7419731102e-08, -8.73144785195e-12, -5931.60515105, 15.3860850404</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.72696656242, 0.00338785983482, -1.19276721995e-06, 1.54358110817e-10, -4.00930157967e-15, -6914.10465576, -6.61308648966</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(C)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.03898456776, 0.0259706296003, -3.67375412945e-05, 2.48450050819e-08, -6.54404026069e-12, -457.723985904, -18.8840208401</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.10223719028, 0.00248777163018, -1.39523694972e-06, 3.26758078743e-10, -2.64613904258e-14, -1812.23889709, -48.9510177774</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(C)(O)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.0378868132165, 0.0192808915041, -3.27218009822e-05, 2.61383434069e-08, -8.04083169575e-12, 5301.25878671, -18.0533156953</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.56194370941, 0.00440822708684, -3.21946916847e-06, 9.68246331489e-10, -1.00232539492e-13, 5008.05430574, -29.4859276326</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)3(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-0.0199861355633, 0.0180979042679, -1.23692338577e-05, -4.40861560648e-09, 5.42353008113e-12, 3502.70739618, -22.2647525859</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.2533076738, 0.0120599791516, -9.19533317296e-06, 2.92077620079e-09, -3.15131104162e-13, 3505.79353526, -27.6178451514</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(O)3(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.271281568554, 0.0077406448287, -2.86391378342e-05, 3.07160961024e-08, -1.11593681873e-11, 999.508967178, -6.64277320498</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.77772432042, -0.00504169673643, 2.88669713736e-06, -7.67781252506e-10, 7.45730093818e-14, 999.806440095, -12.3433465115</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(RSi)(Si)2" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.40662770613, 0.023150396516, -4.58706652707e-05, 4.14313423403e-08, -1.39954977796e-11, 6856.14794778, -26.2424867049</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.48159730575, 0.00366851094539, -2.84259481998e-06, 9.14120760164e-10, -9.94306791757e-14, 6529.52295817, -39.4840500925</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="RSi-(C)(H)(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.0653699485785, 0.00454648875412, -3.75955779556e-06, 6.24887668919e-10, 4.5930408688e-13, 4392.82819311, 4.1339116543</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">0.911715179216, 0.00167989736188, -8.3393472857e-07, 1.96455777404e-10, -1.76409269505e-14, 4207.06794523, -0.0466073377708</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(H)2(O)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-2.06506259649, 0.0350061897444, -5.79033967689e-05, 4.66074634193e-08, -1.4320199812e-11, 6390.02885386, 7.30773886027</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">3.75030069762, 0.00503768743485, -1.70395317136e-06, 2.54590650309e-10, -1.36316253709e-14, 5552.67340357, -19.1202715801</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(RC)(H)2(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.64408816441, 0.00251456610046, 1.29939811172e-05, -1.91548385177e-08, 7.87182064819e-12, 8145.86873872, -1.2072818264</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">2.80971854703, 0.00464678053083, -1.87434848849e-06, 3.02702269265e-10, -1.52353460027e-14, 7583.26701158, -8.47130381326</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="Si-(C)(H)(O)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.26606440579, 0.00571850412016, -8.07003102324e-06, 6.94932344204e-09, -2.47367571486e-12, 6754.62782224, -14.5905557871</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">1.9124368535, 0.00483321305429, -3.1934087082e-06, 9.34167268062e-10, -9.6223237912e-14, 6953.65868389, -12.2901143489</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(H)2(RO)(Si)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">1.26511089837, 0.0160681720516, -1.31857526586e-05, 5.29073245678e-09, -6.33836479131e-13, 1997.88678147, 5.26054477581</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.50324753428, 0.00642089647983, -2.55793440783e-06, 4.71092935611e-10, -3.28762729533e-14, 1125.49968693, -11.318037763</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="C-(RC)(H)2(O)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">0.423650610808, 0.0100687354613, 2.48429993104e-06, -1.36465895713e-08, 7.27347848699e-12, -4541.4580575, -1.67933209303</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">4.85927351455, 0.000970250982279, 1.25691604522e-06, -5.43260364045e-10, 6.0139523695e-14, -5851.87526896, -25.1717948616</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name=" O-(Si)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">-1.43167097521, 0.0372317050249, -6.64253550809e-05, 5.63954458716e-08, -1.83370099309e-11, -41638.7832181, 0.773683846257</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">5.28746692326, 0.00403937134151, -2.53387859835e-06, 7.11651030391e-10, -7.1365568118e-14, -42791.0932647, -30.3990271436</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+    <species name="O-(C)(RSi)" group = "yes">
+      <atomArray>  </atomArray>
+      <note>group</note>
+      <thermo>
+        <NASA Tmax="1000.0" Tmin="200.0" P0="100000.0">
+           <floatArray name="coeffs" size="7">2.43576882585, -0.000996494603012, 1.22364220099e-05, -1.50679611988e-08, 5.70955285462e-12, -21066.0631623, -10.8035306565</floatArray>
+        </NASA>
+        <NASA Tmax="4000.0" Tmin="1000.0" P0="100000.0">
+            <floatArray name="coeffs" size="7">-0.902092855425, 0.0106567235987, -7.22676609735e-06, 1.97859032956e-09, -1.88437174244e-13, -20149.1210892, 6.12429050916</floatArray>
+        </NASA>
+      </thermo>
+    </species>
+</speciesData>
+</ctml>
